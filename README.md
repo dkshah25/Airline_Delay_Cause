@@ -5,7 +5,7 @@ Flight delays don’t happen for just one reason. They can be caused by weather,
 airline operations, air traffic congestion (NAS), security issues, or late-arriving aircraft.
 
 In this project, I built a **multinomial logistic regression model** to identify the
-**primary cause of delay** for U.S. airline flights using real operational data.
+**primary cause of delay** for Flights using real operational data.
 Instead of predicting how long a flight will be delayed, the focus is on
 *why* the delay happened.
 
@@ -16,7 +16,7 @@ This makes the results more interpretable and operationally useful.
 ---
 
 ## Dataset
-The project uses the **U.S. Airline Delay Causes** dataset, which contains
+The project uses the **Airline Delay Causes** dataset, which contains
 aggregated delay statistics for domestic flights in the United States.
 
 The dataset includes:
@@ -26,7 +26,7 @@ The dataset includes:
 - Delay minutes broken down by cause (carrier, weather, NAS, security, late aircraft)
 
 ### Dataset credit
-Dataset source: **Kaggle – U.S. Airline Delay Causes**
+Dataset source: **Kaggle – Airline Delay Causes**
 
 The dataset is used strictly for educational and research purposes.
 All rights belong to the original data providers.
